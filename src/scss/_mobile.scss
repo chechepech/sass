@@ -6,7 +6,7 @@
 }
 //desktop & laptops
 @include mediaLg{
-    grid-template-columns: repeat(3,1fr);
+    .projects{grid-template-columns: repeat(3,1fr)};
 }
 //tablet & small laptops
 @include mediaMd{
